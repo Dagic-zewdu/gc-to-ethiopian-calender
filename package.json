@@ -1,0 +1,25 @@
+{
+  "name": "gc-to-ethiopian-calender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagic-zewdu/gc-to-ethiopian-calender.git"
+  },
+  "keywords": [
+    "convertToGC",
+    "toEthiopianDateSting",
+    "toEthiopianMonthString",
+    "toEthiopianDayString"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dagic-zewdu/gc-to-ethiopian-calender/issues"
+  },
+  "homepage": "https://github.com/Dagic-zewdu/gc-to-ethiopian-calender#readme"
+}
