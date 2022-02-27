@@ -8,7 +8,7 @@ Converts gregorian calender to ethiopian calender string
 
 # simple conversion
 
-````
+```
 const {toEthiopianDateString,
 toEthiopianDayString,
 toEthiopianMonthString,
