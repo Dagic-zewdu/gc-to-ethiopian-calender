@@ -1,31 +1,25 @@
 # What is this?
 
-Converts gregorian calender to ethiopian calender string
+Converts gregorian calendar to ethiopian calendar string
 
 # Installation
 
-<code>npm i gc-to-ethiopian-calender </code>
+<code>npm i gc-to-ethiopian-calendar </code>
 
 # simple conversion
 
 ```
-const {toEthiopianDateString,
-toEthiopianDayString,
+import {
+convertToGC,
+toEthiopianDateString,
 toEthiopianMonthString,
-convertToGC}=require('./index')
+toEthiopianDayString} from 'gc-to-ethiopian-calender'
 
-// parameters can be empty(returns todays date) or number or iso format 
+/** parameters can be empty(returns todays date) or number or iso format*/
 const dateNow=toEthiopianDateString()
-
-//parameters can be empty(returns todays date) or number or iso format
 const dayToday=toEthiopianDayString()
-
-//parameters can be empty(returns todays date) or number or iso format
 const monthOfTOday=toEthiopianMonthString()
 
-//the first parameter is monthday(1-30) 
-//second parameter is month (1-13)
-//the third parameter is year
 const gcDate=convertToGC(20,6,2014)
 
 console.log(dateNow) // እሁድ 20 የካቲት 2014

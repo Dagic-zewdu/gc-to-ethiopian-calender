@@ -1,5 +1,5 @@
 {
-  "name": "gc-to-ethiopian-calender",
+  "name": "gc-to-ethiopian-calendar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,11 @@
     "convertToGC",
     "toEthiopianDateSting",
     "toEthiopianMonthString",
-    "toEthiopianDayString"
+    "toEthiopianDayString",
+    "date",
+    "ethiopian",
+    "gregorian",
+    "calendar"
   ],
   "author": "",
   "license": "ISC",
