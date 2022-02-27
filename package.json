@@ -1,7 +1,7 @@
 {
   "name": "gc-to-ethiopian-calendar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Converts gregorian calendar to ethiopian calendar string",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/Dagic-zewdu/gc-to-ethiopian-calender/issues"
   },
-  "homepage": "https://github.com/Dagic-zewdu/gc-to-ethiopian-calender#readme"
+  "homepage": "https://github.com/Dagic-zewdu/gc-to-ethiopian-calender#readme",
+  "directories": {
+    "test": "test"
+  }
 }

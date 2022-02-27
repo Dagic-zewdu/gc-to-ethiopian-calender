@@ -19,14 +19,14 @@ toEthiopianDayString} from 'gc-to-ethiopian-calender'
 const dateNow=toEthiopianDateString()
 const dayToday=toEthiopianDayString()
 const monthOfTOday=toEthiopianMonthString()
-
 const gcDate=convertToGC(20,6,2014)
+const someDay=toEthiopianDateString('2022-02-28T20:58:22.272Z')
 
 console.log(dateNow) // እሁድ 20 የካቲት 2014
 console.log(dayToday) // እሁድ
 console.log(monthOfTOday) //የካቲት
 console.log(gcDate) // Sun, 27 Feb 2022
-
+console.log(someDay) // ሰኞ 21 የካቲት 2014
 ```
 
 
