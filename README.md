@@ -9,7 +9,10 @@ Converts gregorian calender to ethiopian calender string
 # simple conversion
 
 ````
-const {toEthiopianDateString,toEthiopianDayString,toEthiopianMonthString,convertToGC}=require('./index')
+const {toEthiopianDateString,
+toEthiopianDayString,
+toEthiopianMonthString,
+convertToGC}=require('./index')
 
 // parameters can be empty(returns todays date) or number or iso format 
 const dateNow=toEthiopianDateString()
@@ -31,3 +34,6 @@ console.log(monthOfTOday) //የካቲት
 console.log(gcDate) // Sun, 27 Feb 2022
 
 ```
+
+
+Huge thanks to [Ethio-European Date Converter](https://www.npmjs.com/package/ethiopian-calendar-date-converter)
