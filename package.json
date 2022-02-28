@@ -28,5 +28,8 @@
   "homepage": "https://github.com/Dagic-zewdu/gc-to-ethiopian-calender#readme",
   "directories": {
     "test": "test"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
