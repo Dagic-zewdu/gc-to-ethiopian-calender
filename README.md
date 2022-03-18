@@ -7,7 +7,7 @@ It is package that Converts Gregorian calendar to ethiopian. And also Ethiopian 
 
 # simple conversion
 
-```
+```js
 import {
 convertToGC,
 toEthiopianDateString,
